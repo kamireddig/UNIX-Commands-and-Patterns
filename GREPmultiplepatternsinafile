@@ -1,0 +1,14 @@
+#!/bin/bash
+#set -x
+echo “START”
+while read p;
+do
+        if $(grep -q “$p” searchFilePath.dat)
+                then
+                        echo “Found: $p”
+                #else
+                #       echo “Found: $p”
+                fi
+done < sampleIDs.dat
+echo “END”
+#set +x
