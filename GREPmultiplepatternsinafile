@@ -1,4 +1,4 @@
-#There are multiple IDs that needs to be searched in a file whether they are present or not. All the IDs that needs to be searched are kept in sampleIDs.dat file. The file that needs to be searched is searchingFile.dat.
+#There are multiple IDs that needs to be searched in a serial file whether they are present or not. All the IDs that needs to be searched are kept in sampleIDs.dat file. The file that needs to be searched is searchingFile.dat.
 
 #!/bin/bash
 #set -x
